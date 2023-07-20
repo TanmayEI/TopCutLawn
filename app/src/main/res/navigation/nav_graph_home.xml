@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.topcutlawn.Fragments.HomeFragment.HomeFragment"
+        android:label="@string/Home_fragment_label"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_MyBookingFragment"
+            app:destination="@id/MyBookingFragment" />
+
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/MyBookingFragment"
+        android:name="com.topcutlawn.Fragments.MyBookingFragment.MyBookingFragment"
+        android:label="@string/MyBooking_fragment_label"
+        tools:layout="@layout/fragment_my_booking">
+
+        <action
+            android:id="@+id/action_MyBookingFragment_to_HomeFragment"
+            app:destination="@id/InvoiceListFragment" />
+
+
+
+  <!--      <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />-->
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/InvoiceListFragment"
+        android:name="com.topcutlawn.Fragments.InvoiceListFragment.InvoiceListFragment"
+        android:label="@string/InvoiceList_fragment_label"
+        tools:layout="@layout/fragment_invoice_list">
+
+        <action
+            android:id="@+id/action_InvoiceListFragment_to_MyBookingFragment"
+            app:destination="@id/MyBookingFragment" />
+
+
+
+        <!--      <action
+                  android:id="@+id/action_SecondFragment_to_FirstFragment"
+                  app:destination="@id/FirstFragment" />-->
+
+    </fragment>
+
+
+
+
+</navigation>

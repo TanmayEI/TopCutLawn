@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment.ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/rlImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/profilephoto_icon" />
+
+                <ImageView
+                    android:id="@+id/iv_camera"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/photo_icon" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="John Smith"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_emailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="Johnsmith@xyz.com"
+                android:layout_gravity="center"
+                android:textColor="@color/brown3"
+                android:textSize="11dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/brown7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/username"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:textColor="@color/black4"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:textColorHint="@color/black4"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/brown8" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/dob"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/etdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:editable="false"
+                android:inputType="date"
+                android:textColor="@color/black4"
+                android:textColorHint="@color/black4"
+                android:background="@null"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/brown8" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:layout_marginTop="10dp"
+                android:text="@string/email"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:editable="false"
+                android:textColorHint="@color/black4"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:textColor="@color/black4"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/brown8" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/phonenumber"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:textColorHint="@color/black4"
+                android:editable="false"
+                android:background="@null"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:textColor="@color/black4"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/brown8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/address"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:textColorHint="@color/black4"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:textColor="@color/black4"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/brown8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/enterdimen"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etdimen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/black4"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:textColor="@color/black4"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/brown8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/total"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/brown2"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/ettotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/black4"
+                android:fontFamily="@font/poppins_pegular"
+                android:textSize="13dp"
+                android:textColor="@color/black4"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/brown8" />
+
+
+                <TextView
+                    android:id="@+id/tv_updateprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/poppins_pegular"
+                    android:gravity="center"
+                    android:text="Update Profile"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_pegular"
+                android:text="@string/virtualpicture"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_propertypicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:itemCount="2"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                tools:listitem="@layout/picturepropertyes" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

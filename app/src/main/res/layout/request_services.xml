@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="122dp"
+                    android:gravity="center"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/ivvideolistqigong"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/request_services"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_pegular"
+        android:text="Residential Services"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+</LinearLayout>
+
+
+
+

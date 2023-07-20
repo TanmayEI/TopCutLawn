@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">TopCutLawn</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="otp_fragment_label">Otp Fragment</string>
+    <string name="resetpassword_fragment_label">Reset Password Fragment</string>
+    <string name="signup_fragment_label">Signup Fragment</string>
+    <string name="signupHome_fragment_label">Signup Home Fragment</string>
+    <string name="Home_fragment_label">Home Fragment</string>
+    <string name="MyBooking_fragment_label">My Booking Fragment</string>
+    <string name="InvoiceList_fragment_label">Invoice List Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="addyourhome">Add Your Home</string>
+    <string name="pleaseenter">Please enter details to register</string>
+    <string name="mylawn">My lawn and landscape is like this</string>
+    <string name="sendotp">Send OTP</string>
+    <string name="verifynow">Verify Now</string>
+    <string name="payment">Payment</string>
+    <string name="request">Request a Free Estimate</string>
+    <string name="welcome">Welcome back</string>
+    <string name="email">Email</string>
+    <string name="costestimates">Get a Cost Estimates</string>
+    <string name="viewcost">View Cost Estimates</string>
+    <string name="seasonalgrass">Seasonal Grass Cut, Bagged and Trimmed</string>
+    <string name="mulch">Mulch and Rock Beds</string>
+    <string name="snowplowing">Snow Plowing</string>
+    <string name="debris">Debris and Leaf Removal</string>
+    <string name="aeration">Aeration</string>
+    <string name="weedcontrol">Weed Control</string>
+    <string name="pruning">Pruning</string>
+    <string name="additional">Additional Message*</string>
+    <string name="guttercleaning">Gutter Cleaning</string>
+    <string name="register">Don\'t have a account?<font color="#1c72af"> Register</font></string>
+    <string name="alreadyaccount">Already have an account?<font color="#1c72af"> Login</font></string>
+    <string name="note"><font color ="#FF000000">Note:</font> <font color="#8C8585"> Please attached sign contract</font></string>
+    <string name="orlogin">Or login with</string>
+    <string name="upload">Upload Document</string>
+    <string name="cnfmpassword">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="mustbe">Must be at least 8 characters.</string>
+    <string name="bothpass">Both password must match.</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="enterotp">Enter the OTP sent to Your Email Address</string>
+    <string name="createnew">Create New Password</string>
+    <string name="username">User Name</string>
+    <string name="total">Total Square of Lawn</string>
+    <string name="virtualpicture">My property Virtual Picture</string>
+    <string name="enterdimen">Enter Dimensions Lawn</string>
+    <string name="address">Address</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="dob">Date of birth</string>
+    <string name="myprofile">My profile</string>
+    <string name="mybooking">My Booking</string>
+    <string name="gallery">Gallery</string>
+    <string name="support">Support</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="requestservices">Request Services</string>
+    <string name="gallerybefore">Gallery Before/After</string>
+    <string name="viewall">View All</string>
+    <string name="enternewpassword">Your new password must be different  from previous used passwords.</string>
+    <string name="recendcode">I didn’t received code. Resend Code \n1:20 Sec left</string>
+    <string name="enteremail">Enter your email and instructions will be \nsent to you!</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="ongoing">Ongoing Booking</string>
+    <string name="pastbooking">Past Booking</string>
+    <string name="No_Internet">No Internet</string>
+    <string name="chatmsg">HI, i have faced a problem with your software. are you available now</string>
+    <string name="chatmsgg">HI, i have checked about your query, there is no any problem like that</string>
+
+    <string name="established">It is a long established fact that a reader will be \ndistracted by the readable...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
